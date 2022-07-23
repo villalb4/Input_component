@@ -1,0 +1,82 @@
+.midButtons_container {
+  
+}
+
+.midButtons_div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 443px;
+  margin-bottom: 45px;
+}
+.midButtonsIcon_div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 572px;
+  margin-bottom: 45px;
+}
+.midButtonssize_div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 532px;
+}
+
+
+.midButton_disabled {
+  margin-top: 12px;
+  color: #9E9E9E;
+  background-color: #E0E0E0;
+}
+
+.midButton_textDisabled {
+  margin-top: 12px;
+  color: #9E9E9E;
+  padding: 8px 0;
+  background-color: transparent;
+}
+
+/* segunda fila */
+.leftIcon_button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  color: #FFF;
+  background-color: #2962FF;
+}
+.rightIcon_button {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  color: #FFF;
+  background-color: #2962FF;
+}
+.cart {
+  height: 14px;
+}
+/* tercera fila */
+.sm_button {
+  margin-top: 17px;
+  padding: 6px 12px;
+  color: #fff;
+  background-color: #2962FF;
+}
+.md_button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #2962FF;
+}
+.lg_button {
+  margin-top: 12px;
+  padding: 11px 22px;
+  color: #fff;
+  background-color: #2962FF;
+}

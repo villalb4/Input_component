@@ -1,0 +1,39 @@
+.sidebar {
+  padding: 38.57px 66.5px 0 48px ;
+  background-color: #FAFBFD;
+  /* position: relative;
+  position: fixed; */
+  height: 100vh;
+}
+
+.logo {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 13px;
+  color: #f7542e;
+  cursor: pointer;
+}
+.logo_challenge {
+  color: #090F31;
+}
+
+.pages {
+  margin-top: 122px;
+}
+.ul_links{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.link {
+  list-style: none;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  font-size: 14px;
+  color: #9E9E9E;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.link:hover {
+  color: #090F31;
+}

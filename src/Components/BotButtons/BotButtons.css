@@ -1,0 +1,55 @@
+.finalContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  max-width: 799px;
+}
+
+.botButtons_container {
+
+}
+
+/* primer boton */
+.buttonColor_default {
+  color: #3F3F3F;
+  background-color: #E0E0E0;
+}
+.buttonColor_default_hover {
+  color: #3F3F3F;
+  background-color: #AEAEAE;
+}
+
+/*segundo boton */
+.buttonColor_primary{
+  color: #FFF;
+  background-color: #2962FF;
+}
+.buttonColor_primary_hover{
+  margin-top: 12px;
+  color: #FFF;
+  background-color: #0039CB;
+}
+
+/* tercer boton */
+.buttonColor_secondary{
+  color: #FFF;
+  background-color: #455A64;
+}
+.buttonColor_secondary_hover{
+  margin-top: 12px;
+  color: #FFF;
+  background-color: #1C313A;
+}
+
+/* cuarto boton */
+.buttonColor_danger{
+  color: #FFF;
+  background-color: #D32F2F;
+}
+.buttonColor_danger_hover{
+  margin-top: 12px;
+  color: #FFF;
+  background-color: #9A0007;
+}

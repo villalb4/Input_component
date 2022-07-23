@@ -13,3 +13,9 @@
   justify-content: space-between;
   padding-right: 40px;
 }
+
+@media screen and (max-width: 959px) {
+  .App {
+    gap: 20px;
+  }
+}

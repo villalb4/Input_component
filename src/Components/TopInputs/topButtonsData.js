@@ -1,12 +1,14 @@
 const buttons = [
   {
     title: "<Input />",
-    hoverTitle: "&:hover",
-    focusTitle: "&:focus",
     label: "label",
     placeholder: "Placeholder",
     style: "input",
+    hoverTitle: "&:shover",
+    labelHover: "labelHover",
     hoverStyle: "input_hover",
+    focusTitle: "&:focus",
+    labelFocus: "labelFocus",
     focusStyle: "input_focus",
     img: ""
   },

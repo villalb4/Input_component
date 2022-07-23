@@ -8,8 +8,8 @@
 
 .App {
   display: flex;
-  max-width: 980px;
-  gap: 20px;
+  max-width: 1376px;
+  gap: 82px;
   justify-content: space-between;
   padding-right: 40px;
 }

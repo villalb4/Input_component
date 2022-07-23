@@ -1,7 +1,8 @@
 .inputs_container {
   display: flex;
-  max-width: 716px;
+  max-width: 728px;
   justify-content: space-between;
+  margin-bottom: 42px;
 }
 
 .title {
@@ -10,13 +11,14 @@
   color: #333333;
   margin-bottom: 12px;
 }
-.title_hover {
+
+.others_title {
   font-family: 'Ubuntu Mono';
   font-size: 12px;
-  color: #333333;
   margin-bottom: 12px;
   color: #828282;
 }
+
 
 .div_input_label {
   display: flex;
@@ -30,12 +32,24 @@
   color: #333333;
   margin-bottom: 4px;
 }
+.labelHover {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Noto Sans JP';
+  color: #333333;
+  margin-bottom: 4px;
+}
+.labelFocus {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Noto Sans JP';
+  color: #2962FF;
+  margin-bottom: 4px;
+}
 
-.div_buttons,
-.div_hoverButtons {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 45px;
+input {
+  pointer-events: none;
+  max-width: 200px;
 }
 input:focus {
   outline: none;
@@ -49,41 +63,21 @@ input:focus {
   color: #828282;
   border: 1px solid #828282;
 }
-
-.Button_hover {
-  color: #3F3F3F;
-  background-color: #AEAEAE;
+.input_hover {
+  font-family: 'Noto Sans JP';
+  padding: 18px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  border: 1px solid #333333;
 }
-
-/* segundo buton */
-.Button_outline {
-  color: #3D5AFE;
-  border: solid 1px #3D5AFE;
-  background-color: transparent;
-}
-.Button_outline_hover {
-  color: #3D5AFE;
-  border: solid 1px #3D5AFE;
-  background-color: #2962FF1A;
-}
-
-/* tercer boton */
-.Button_text {
-  color: #3D5AFE;
-  padding: 8px 0px;
-  background-color: transparent;
-}
-.Button_text_hover {
-  color: #3D5AFE;
-  background-color: #2962FF1A;
-}
-
-/* cuarto boton */
-.Button_shadow {
-  color: #fff;
-  background-color: #3D5AFE;
-}
-.Button_shadow_hover {
-  color: transparent;
-  background-color: transparent;
+.input_focus {
+  font-family: 'Noto Sans JP';
+  padding: 18px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  border: 1px solid #2962FF;
 }

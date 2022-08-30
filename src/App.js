@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css"
-import Inputs from "./Components/Inputs";
 import SideBar from "./Components/SideBar/SideBar";
+import Inputs from "./Components/Inputs";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import buttonsData from "./topButtonsData"
-import "./TopInputs.css"
+import buttonsData from "./MidButtonsData"
+import "./MidInputs.css"
 
 function Inputs() {
   return (
@@ -14,6 +14,7 @@ function Inputs() {
               <label className={b.label}>{b.label}</label>
               <input className={b.style} value={b.placeholder} />
             </div>
+            <span className={b.textStyle}>{b.text}</span>
           </div>
 
           {/* input hover */}
@@ -23,15 +24,7 @@ function Inputs() {
               <label className={b.labelHover}>{b.label}</label>
               <input className={b.hoverStyle} value={b.placeholder} />
             </div>
-          </div>
-          
-          {/* input focus */}
-          <div className="div_focusInputs">
-            <span className="others_title">{b.focusTitle}</span>
-            <div className="div_input_label">
-              <label className={b.labelFocus}>{b.label}</label>
-              <input className={b.focusStyle} value={b.placeholder} />
-            </div>
+            <span className={b.errorStyle}>{b.error}</span>
           </div>
 
         </div>
